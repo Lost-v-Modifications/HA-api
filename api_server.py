@@ -22,4 +22,4 @@ def get_variables():
     return jsonify(variables), 200  # Alle Variablen zurückgeben
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
